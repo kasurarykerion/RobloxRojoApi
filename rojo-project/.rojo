@@ -1,1 +1,20 @@
+### 3. **Rojo Configuration File (`.rojo`)**
+Rojo uses a configuration file (`.rojo`) to determine how to sync local files with Roblox Studio.
+
+Here’s an example of a simple Rojo configuration:
+```json
+{
+    "name": "RobloxRojoDemo",
+    "version": "0.1.0",
+    "tree": {
+        "$className": "DataModel",
+        "Workspace": {
+            "$className": "Workspace",
+            "ServerScriptService": {
+                "$className": "ServerScriptService",
+                "MyServerScript": "src/main.server.lua"
+            }
+        }
+    }
+}
 
