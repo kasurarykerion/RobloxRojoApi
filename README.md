@@ -1,18 +1,18 @@
 # Roblox Rojo API Demo
 
-Ce projet montre comment utiliser Rojo pour connecter des scripts Roblox Studio à un projet externe via l'API de Rojo. Rojo permet de travailler avec des fichiers Lua locaux tout en les synchronisant dans Roblox Studio, ce qui offre plus de contrôle sur le code source et le développement collaboratif.
+This project demonstrates how to use Rojo to connect Roblox Studio scripts to an external project via the Rojo API. Rojo allows you to work with local Lua files while syncing them to Roblox Studio, offering more control over your source code and enabling collaborative development. If you need help contact 2019og on discord.
 
-## Prérequis
+## Prerequisites
 
-Avant de commencer, tu dois avoir installé :
+Before you begin, you need to have:
 
-- [Roblox Studio](https://www.roblox.com/create)
-- [Rojo](https://rojo.space/) installé sur ton système
-- Un éditeur de texte comme [Visual Studio Code](https://code.visualstudio.com/)
+- [Roblox Studio](https://www.roblox.com/create) installed
+- [Rojo](https://rojo.space/) installed on your system
+- A text editor like [Visual Studio Code](https://code.visualstudio.com/)
 
 ## Installation
 
-1. Clone ce dépôt.
-2. Installe les dépendances Rojo dans le répertoire du projet :
+1. Clone this repository.
+2. Install Rojo dependencies in your project directory:
    ```bash
    npm install -g rojo
